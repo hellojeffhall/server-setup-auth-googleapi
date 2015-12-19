@@ -190,4 +190,4 @@ exportable_obj.setup = function( setup_obj ) {
   });
 };
  
-module.exports = auth_offline_google_scopes ;
+module.exports = exportable_obj ;
