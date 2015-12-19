@@ -1,6 +1,6 @@
 {
   "name": "server-setup-auth-googleapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An modular appraoch to authorizing a server-side app for accessing Google APIs.",
   "main": "server-setup-auth-googleapi.js",
   "scripts": {
