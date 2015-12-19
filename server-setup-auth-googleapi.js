@@ -26,14 +26,16 @@ var getNewToken = function (oauth2Client, scopes, token_dir, token_filename ){
       scope       : scopes 
     });
   
-    console.log('Please authorize this app by visiting this url:\n' + authUrl );
+    console.log('\nPlease authorize this app by visiting this url:\n\n' 
+                  + authUrl
+    );
   
     var rl = readline.createInterface({
       input  : process.stdin ,
       output : process.stdout
     });
   
-    rl.question('Please enter the code from that page here:\n' , function(code) {
+    rl.question('\nPlease enter the code from that page here:\n' , function(code) {
       rl.close() ;
       oauth2Client.getToken( code, function(err, token) {
         if(err) {
