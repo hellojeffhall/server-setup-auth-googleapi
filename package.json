@@ -1,0 +1,14 @@
+{
+  "name": "server-setup-auth-googleapi",
+  "version": "1.0.0",
+  "description": "An modular appraoch to authorizing a serverside app for accessing Google APIs.",
+  "main": "server-setup-auth-googleapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jrhall",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^0.9.7"
+  }
+}
